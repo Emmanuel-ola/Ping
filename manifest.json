@@ -1,0 +1,28 @@
+{
+  "name": "Ping",
+  "short_name": "Ping",
+  "version"; "1",
+  "manifest_version": 2,
+  "author": "Olawoore Emmanuel Collins",
+  "developer": {
+     "name": "Olawoore Emmmanuel Collins"
+     }
+  "icons":[
+    {
+  "src":"/android-chrome-192x192.png",
+  "sizes":"192x192",
+  "type":"image/png"
+    },
+    {
+    "src":"/android-chrome-512x512.png",
+    "sizes":"512x512",
+    "type":"image/png"
+    }
+    ],
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#0042FF",
+  "start_url": "Index.html",
+  "permission": ["geolocation", "theme", "background"],
+  "orientation": "portrait" 
+}
