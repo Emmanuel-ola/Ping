@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1">
+       <meta name="HandHeldFriendly" content="true">
+       <meta name="MobileOptimized" content="320">
+       <link rel="shortcut icon" href="android-chrome-512x512.png">
+       <link rel="manifest" href="manifest.json">
+       <script src="https://use.fontawesome.com/236b0bdf14.js"></script>
+        <title>Ping</title>
+    </head>
+    <body>
+      <header id="abv">
+      <center>
+        <h3 id="heading"><b>Ping</b> <i class="fa fa-question-circle" id="info"></i></h3>
+        </center>
+      </header>
+      <center>
+      <div id="about">
+      <br>
+        <p>Ping is a geo IP solution to identify visitor's geographical location using an IP address lookup database and technology without invading the internet user's privacy</p>
+        <br>
+        <button id="ok">OK</button>
+      </div>
+      </center>
+      <br><br>
+      <div id="bodie">
+      <input type="search" id="search" placeholder="Enter IP or Web Address" size="30">
+      <button id="click">Search</button>
+      </div>
+      <br>
+      <div id="result">
+       <center>
+        <iframe id="map"></iframe>
+        </center>
+        <pre>
+        <center>
+        <h3 id="locator">Location</h3>
+        </center>
+       <i class="fa fa-map-marker"></i> <label id="ip">IP:  <span id="res1"></span></label>
+        <br>
+        <i class="fa fa-map-marker"></i> <label id="lat">Latitude:  <span id="res2"></span></label>
+        <br>
+        <i class="fa fa-map-marker"></i> <label id="lng">Longitude:  <span id="res3"></span></label>
+        <br>
+       <i class="fa fa-check-square"></i> <label id="status">Status:  <span id="res4"></span></label>
+        <br>
+       <i class="fa fa-globe"></i> <label id="country">Country:  <span id="res5"></span></label>
+        <br>
+        <label id="code">CountryCode:  <span id="res6"></span></label>
+        <br>
+        <label id="city">City:  <span id="res7"></span></label>
+        <br>
+        <label id="reg">Region:  <span id="res8"></span></label>
+        <br>
+        <label id="regN">RegionName:  <span id="res9"></span></label>
+        <br>
+        <label id="timezone">Timezone:  <span id="res10"></span></label> 
+        <br>
+        <label id="zip">ZIP:  <span id="res11"></span></label>   
+        <br>    
+        <label id="isp">ISP:  <span id="res12"></span></label>
+        <br>
+        <label id="org">ORG:  <span id="res13"></span></label>
+        <br>
+        <label id="as">As:  <span id="res14"></span></label>
+        <br>
+        <label id="rev">Reverse:  <span id="res15"></span></label>
+        <br>
+       <i class="fa fa-signal"></i> <label id="mob">Mobile:  <span id="res16"></span></label>
+        <br>
+       <i class="fa fa-desktop"></i> <label id="prox">Proxy:  <span id="res17"></span></label>
+        <br>
+        <i class="fa fa-database"></i> <label id="Host">Hosting:  <span id="res18"></span></label>
+      </div>
+      <script src="App.js"></script>
+    </body>
+  </html>
